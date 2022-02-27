@@ -50,5 +50,13 @@ public class Board {
         this.modifiedDate = LocalDateTime.now();
     }
 
+    public void increaseHits(){
+        this.hits++;
+    }
+
+    public void delete(){
+        this.deleteYn='Y';
+    }
+
 
 }
